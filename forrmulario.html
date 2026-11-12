@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Formulario Literatura</title>
+</head> 
+<Body>
+<h1>Formulario de Pesquisa Literária!</h1>
+<p>Queremos saber um pouco mais sobre a sua relação com os livros!</p>
+<hr>
+<form= action="/processando-formulario" method="post">
+<fieldset>
+<legend>Dados gerais</legend>
+<label for="Nome">Nome:</label>
+<input type="text" minlength="3" id="nome" />
+<label for="Idade">Idade:</label>
+<input type="text" id= "Idade" />
+</fieldset>
+<fieldset>
+<legend>Literatura</legend>
+<label for="Qtd Livros Lidos">Qtd Livros Lidos:</label>
+<input type="text" id="Qtd livors lidos" />
+<label for="Tempo de Leitura">Tempo de Leitura:</label>
+<input type="text" id="Tempo de Leitura" />
+<label for="Gênero Literário">Gênero Literário:</label>
+<select id="Gênero Literário" />
+<option value="">Terror</option>
+<option value="">Romance</option>
+<option value="">Fantasia</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>Feedback</legend>
+<label for="Mensagem:">Mensagem: </label>
+<textarea type="text" id="Mensagem"></textarea>
+<button type="Submit">Enviar </button>
+<button type="Reset">Resetar Formulário</button>
+</fieldset>
+</form>
+
